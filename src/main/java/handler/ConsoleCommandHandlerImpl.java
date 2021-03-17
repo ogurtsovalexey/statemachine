@@ -19,6 +19,8 @@ public class ConsoleCommandHandlerImpl implements ConsoleCommandHandler {
                 System.out.println(queueService.removeFromQueueIfExists(command));
                 break;
         }
+
+//        Uncomment to visualize queue
 //        printAdditionalInfo();
     }
 
